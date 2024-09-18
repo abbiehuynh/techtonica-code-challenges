@@ -7,3 +7,23 @@ Output: "false"			Output: “true”
 
 */
 
+// function 1
+// function booleanToString(boolean) {
+//     return boolean.toString();
+// }
+
+// function 2
+// function booleanToString(boolean) {
+//     return boolean.valueOf();
+// }
+
+// function 3
+ function booleanToString(boolean) {
+    let bool = true;
+    let result = bool ? "true" : "false";
+    return result;
+ }
+
+
+console.log(booleanToString(true));
+console.log(booleanToString(false));
